@@ -1,0 +1,369 @@
+.{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	/*font-family: 'Playfair Display', serif;*/
+	/*font-family: 'Fira Sans', sans-serif;*/
+}
+
+
+
+/* .carousel-item img{*/
+/*		height:80vh;*/
+/*		width: 100%;*/
+/*	}*/
+
+.img-fluid{
+	height: 700px;
+	width: 100%;
+	margin-top: 0 !important;
+	margin-bottom: 0 !important;
+	
+}
+
+.navbar{
+	opacity: 60%;
+	
+}
+
+.navbar-brand{
+color: #ADF2EC;
+/*text-shadow:  0 0px 50px #ffffff*/ ;
+}
+
+.navbar-brand:hover {
+  color:white;
+}
+
+.nav-link{
+color: #ADF2EC;
+}
+
+.nav-link:hover {
+  color:white;
+}
+
+
+/*hr#six {*/
+/*  background: white;*/
+/*  border-bottom: 1px dashed white;*/
+/*  &: before { border: 1px dashed white;*/
+/*    border-radius: 20px;*/
+/*  }*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*about me*/
+
+.h-divider {
+  margin: auto;
+  margin-top: 80px;
+  width: 80%;
+  position: relative;
+	
+	
+}
+
+.h-divider .shadow {
+  overflow: hidden;
+  height: 11px;
+	 
+
+}
+
+.h-divider .shadow:after {
+  content: '';
+  display: block;
+  margin: -25px auto 0;
+  width: 100%;
+  height: 25px;
+  border-radius: 125px/12px;
+  box-shadow: 0 0 25px black;
+}
+
+.h-divider .text {
+  width: 150px;
+  height: 50px;
+  padding: 10px;
+  position: absolute;
+  bottom: 100%;
+  margin-bottom: -33px;
+  left: 50%;
+  margin-left: -60px;
+	
+  border-radius: 100%;
+  box-shadow: 0 2px 4px #999;
+  background: white;
+	font-family: 'Roboto Slab', serif;
+		text-align: center;
+		font-size: 20px
+}
+		
+.card{
+	margin-top: 100px;
+	background-color: #000;
+	font-family: 'Calistoga', cursive;
+}
+
+
+.card img{
+	height: 500px;
+	width: 500px;
+	position:relative;
+}
+
+.card-text {
+margin-left: 20%;
+margin-bottom: 10%;
+font-size: 20px;
+text-align: justify;
+color: #1FE5D3;
+	}		
+		
+		
+		
+
+
+
+/*SERVICES*/
+
+.h1-divider {
+  margin: auto;
+  margin-top: 80px;
+  width: 80%;
+  position: relative;
+}
+
+.h1-divider .shadow {
+  overflow: hidden;
+  height: 11px;
+}
+
+.h1-divider .shadow:after {
+  content: '';
+  display: block;
+  margin: -25px auto 0;
+  width: 100%;
+  height: 25px;
+  border-radius: 125px/12px;
+  box-shadow: 0 0 8px black;
+}
+
+.h1-divider .text {
+  width: 150px;
+  height: 50px;
+  padding: 10px;
+  position: absolute;
+  bottom: 100%;
+  margin-bottom: -33px;
+  left: 50%;
+  margin-left: -60px;
+	
+  border-radius: 100%;
+  box-shadow: 0 2px 4px #999;
+  background: white;
+	font-family: 'Roboto Slab', serif;
+		text-align: center;
+		font-size: 22px;
+}
+
+.card-body1{
+	 border-radius: 4px;
+	box-shadow: 0 0 25px black
+	
+
+}
+
+.card-title1{
+font-family: 'Cormorant Garamond', serif;
+		font-weight: bold;
+		
+}
+
+
+.card-text1 {
+		font-family: 'Roboto', sans-serif;
+		
+	
+}
+
+/*CONTACT ME*/
+
+.h2-divider {
+  margin: auto;
+  margin-top: 80px;
+  width: 80%;
+  position: relative;
+}
+
+.h2-divider .shadow {
+  overflow: hidden;
+  height: 11px;
+}
+
+.h2-divider .shadow:after {
+  content: '';
+  display: block;
+  margin: -25px auto 0;
+  width: 100%;
+  height: 25px;
+  border-radius: 125px/12px;
+  box-shadow: 0 0 8px black;
+}
+
+.h2-divider .text {
+  width: 150px;
+  height: 50px;
+  padding: 10px;
+  position: absolute;
+  bottom: 100%;
+  margin-bottom: -33px;
+  left: 50%;
+  margin-left: -60px;
+  border-radius: 100%;
+  box-shadow: 0 2px 4px #999;
+  background: white;
+	font-family: 'Roboto Slab', serif;
+		
+		text-align: center;
+		font-size: 18px;
+}
+
+
+/*<contact form>*/
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/*phone*/
+input[type=tel]{
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+	}
+	
+	/*email*/
+input[type=email]{
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #3A4242;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #47B9B9;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*responsive css code*/
+// X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) { ... }
