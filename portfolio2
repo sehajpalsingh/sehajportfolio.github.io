@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+                     <!-- META TAGS -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+                         <!-- BS IN CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="port2.css">
+
+   <!-- FONT LINK -->
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Poller+One&display=swap" rel="stylesheet">
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Prociono&display=swap" rel="stylesheet">        
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Simonetta:ital,wght@1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Fenix&display=swap" rel="stylesheet">
+    
+
+
+    <title>SEHAJPAL SINGH</title>
+</head>
+<body>
+                               <!-- header -->
+<header>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark ">
+        <div class="container">
+            
+          <a class="navbar-brand" href="#"> SEHAJPAL SINGH</a>
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">ABOUT ME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">SERVICES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">CONTACT</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
+
+
+
+</header>
+
+<!-- 
+<div class="mainimg p5-1">
+    <img src="c2.jpg" width="100%" height="25%"  alt="">
+</div>
+ -->
+
+
+                               <!-- Carousel -->
+
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="C17.jpeg"  class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block ">
+        <h2>PREPARE YOUR WEBSITE NOW </h2>
+        <h4>Based On Any STARTUP</h4>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="C18.jpeg"  class="d-block w-100" alt="...">
+      <div class="carousel-caption  d-none d-md-block ">
+        <h2 > GETTING STARTED </h2>
+        <h4>Contact Us Today</h4>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="c12.jpeg"  class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block ">
+        <h2>  OUR CREATIVITY YOUR IDEAS  </h2>
+        <h4>Thinking Outside, Inside & Around The Box.</h4>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<!-- about me -->
+
+
+<hr>
+<div class="container-fluid py-3" style="background-color: black;">
+  <div class="vertical"></div>
+  <h1 class="menu text-center my-3  ">
+   ABOUT ME
+  </h1>
+  <div class="vertical"></div>
+</div>
+
+<div class="about container-fluid py-1">
+  
+  <img src="s.png" class="mypic py-5 "  alt="...">
+  
+
+<p class="text-center px-5 pb-5"> I'm obsessed with making things and even more obsessed with making things better. I've been in the business of creating since I hung my first painting on the fridge when I was 3. After graduation, I've been actively involved in the web design community. I've designed websites for small businesses, corporations, nonprofits, churches, musicians and more. I also started a design blog, Visual Swirl, where I share inspiration, tutorials, and resources.</p>
+
+
+</div>
+
+<!-- services -->
+<hr>
+<div class="container-fluid py-3" style="background-color: black;">
+<div class="vertical"></div>
+<h1 class="menu text-center my-3  ">
+ SERVICES
+</h1>
+<div class="vertical"></div>
+</div>
+
+
+<div class="service container-fluid">
+
+
+<div class="container text-center pt-4">
+
+  <div class="row">
+    <div class="col-3">
+      <img src="" alt="">
+    </div>
+    <div class="col-3">
+      <img src="" alt="">
+    </div>
+    <div class="col-3">
+      <img src="" alt="">
+    </div>
+    <div class="col-3">
+      <img src="" alt="">
+    </div>
+  </div>
+</div>
+<div class="container text-center pt-4">
+  <div class="row py-5">
+    <div class="col-sm-3">
+      <h3 class="text-center">
+        CONTENT MANAGEMENT
+
+      </h3>
+      <p>Custom wordpress theme and plugin development. Easily update content without knowing how to code.</p>
+    </div>
+
+    <div class="col-sm-3">
+      <h3 class="text-center">
+        E-COMMERCE
+
+      </h3>
+      <p>Integration of ecommerce platforms, payments gateway, custom product templates, and more.</p>
+    </div>
+
+    <div class="col-sm-3">
+      <h3 class="text-center">
+        MOBILE FRIENDLY
+
+      </h3>
+      <p>A responsive design makes your website accessible to all users, regardless of their device.</p>
+    </div>
+
+    <div class="col-sm-3">
+      <h3 class="text-center">
+        DESIGN+DEVELOPMENT
+
+      </h3>
+      <p>Clean, modern design-optimization for performance, search engines, and converting users to customers.</p>
+    </div>
+  </div>
+</div>
+</div>
+
+    <!-- parallax -->
+<div class="container-fluid ">
+<div class="parallax">
+  <div class="row">
+    <div class="col-6"></div>
+    <div class="col-lg-6">
+      <h1 class="text-center d-none d-lg-block">Don't Stress. We'll handle the mess.</h1>
+    </div>
+  </div>
+</div>
+</div>
+
+                                        <!-- FOOTER -->
+<!-- Contact -->
+<div class="contact container-fluid">
+
+  <div class="container-fluid py-3">
+    <div class="vertical"></div>
+    <h1 class="text-center  mt-3" style="color: black;">
+      SAY "HELLO"
+    </h1>
+    <p class="text-center mb-3">- GET IN TOUCH -</p>
+    
+    <div class="vertical"></div>
+    </div>
+
+    
+<hr style="height:2px; color:rgb(94, 88, 88);">
+
+<div class="container">
+  <div class="row row-cols-1 mb-5 ">
+    <div class="col text-center text-white mt-2 ">
+      <h5>- TELEPHONIC DEVICE -</h5>
+      
+     
+    </div>
+
+    <div class="phone col text-center  mt-2">
+      
+      <a href="tel:+91 988-843-4122"><h6>+91 988-843-4122</h6> </a>
+    </div>
+
+    <div class="col text-center text-white mt-2">
+      
+      <h5>- ELECTRONIC MAIL -</h5>
+    </div>
+
+    <div class=" col text-center mt-2">
+      
+      <a href="mailto: contactsehaj@gmail.com"><h6>contactsehaj@gmail.com</h6> </a> 
+      
+<hr style="height:2px;border-width: 1000px;color:white;background-color: white;">
+<hr style="height:20px; color:white;">
+    </div>
+  </div>
+</div>
+
+
+
+</div>
+<!-- Option 1: Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+<!-- Option 2: Separate Popper and Bootstrap JS -->
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+
+    
+</body>
+</html>
