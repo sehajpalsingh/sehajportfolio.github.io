@@ -1,0 +1,702 @@
+.{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/* NAVBAR */
+
+.navbar{
+ background-color: rgb(37, 20, 2);
+ opacity: 70%;
+}
+
+.navbar-brand{
+
+ color: white;
+ font-size: 150%;     
+}
+
+.nav-link{
+
+ color: white;
+ font-size: 110%;
+
+}
+
+.dropdown-menu{
+
+  background-color: rgb(37, 20, 2);
+  
+}
+.dropdown-item{
+  color: antiquewhite;
+}
+/* LINE */
+ 
+.vertical {
+
+  border-left: 2px solid rgb(235, 100, 10);
+  height: 40px;
+  position:center;
+  position: relative;
+  margin-left: 50%;
+  
+
+}
+
+
+
+
+
+
+
+.hi h5{
+  text-align: left;
+  margin-top: 3%;
+  margin-left: 10%;
+  font-size: 70px;
+  color: rgb(235, 177, 18);
+  font-family: 'Tangerine', cursive;
+  
+}
+
+.hi h1{
+  text-align: center;
+  margin-bottom: 5%;
+  margin-top: ;
+  text-shadow: bisque;
+  font-size: 190px;
+  color: antiquewhite;
+  font-family: 'Tangerine', cursive;
+
+}
+
+
+
+.hi p{
+  color: antiquewhite;
+  text-align: center;
+  opacity: 30%;
+  font-family: 'Kameron', serif;
+  margin-top: 2%;
+  font-size: 20px;
+}
+.hi img{
+  width: 100%;
+  height: 750px;
+}
+
+.menu h1{
+  color: rgb(235, 100, 10);
+  font-family: 'Yeseva One', cursive;
+  
+}
+
+#subitem{
+  font-size: 45px;
+  font-family: 'Charm', cursive;
+
+  color: rgb(247, 232, 206);
+  text-shadow: 0 0 5px rgb(87, 5, 69);
+}
+
+
+
+.tabla p{
+  color: #241407;
+  font-size: 10px;
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
+.write img{
+  padding-left: 10%;
+  padding-right:10% ;
+
+}
+
+.write p{
+  padding-left: 6%;
+  padding-right: 6%;
+  font-size: 20px;
+}
+
+.blog button:hover{
+  box-shadow: 0px 0px 15px rgb(190, 117, 7);
+  font-size: 15px;
+}
+
+.wd{
+  align-items: center;
+  padding-left: 25%;
+  padding-right: 25%;
+  column-width: auto;
+}
+
+.wd p{
+  font-size: 18px;
+  padding-right: 5%;
+  padding-left: 5%;
+}
+.contact a{
+  color: rgb(255, 251, 251);
+  text-decoration: none; 
+}
+
+
+.fa {
+  padding: 20px;
+ font-size: 30px;
+  width: 55px;
+  
+  text-align: center;
+  border-radius: 50%;
+  background-color: rgb(235, 100, 10);
+  color:transparent;
+}
+.fa:hover {
+  opacity: 0.7;
+  text-decoration: none;
+  
+}
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                           /* ABOUT */
+/* 
+Extra small devices (portrait phones, less than 544px) 
+No media query since this is the default in Bootstrap because it is "mobile first"
+*/
+.about h1 {font-size:1rem;} /*1rem = 16px*/
+/*
+####################################################
+M E D I A  Q U E R I E S
+####################################################
+*/
+ 
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Bootstrap 4 breakpoints
+*/
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 544px) {  
+  .about h1 {font-size:1.5rem;} /*1rem = 16px*/
+}
+ 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+  .about h1 {font-size:2rem;} /*1rem = 16px*/
+}
+ 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  .about h1 {font-size:2.5rem;} /*1rem = 16px*/
+}
+ 
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+  .about h1 {font-size:3rem;} /*1rem = 16px*/    
+}
+ 
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Custom media queries
+*/
+ 
+/* Set width to make card deck cards 100% width */
+@media (min-width: 950px) and (max-width:1100px) { 
+  .about h1 {font-size:2.75rem;} 
+}
+
+ 
+
+Option 2: Responsive to viewport width
+Another approach would be to calculate the font size based on the viewport height and width. As the viewport gets smaller, the font-size will get smaller. This is not the default behavior in Bootstrap 4 because font sizes are relative to the body font size of 16px. So you will need to use a custom class .text-responsive to add this new functionality.
+
+.text-responsive {
+  font-size: calc(100% + 1vw + 1vh);
+}
+1
+2
+3
+.text-responsive { 
+  font-size: calc(100% + 1vw + 1vh);
+}
+
+/* 
+Extra small devices (portrait phones, less than 544px) 
+No media query since this is the default in Bootstrap because it is "mobile first"
+*/
+.about p{font-size: 15px;} /*1rem = 16px*/
+/*
+####################################################
+M E D I A  Q U E R I E S
+####################################################
+*/
+ 
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Bootstrap 4 breakpoints
+*/
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 544px) {  
+  .about p{font-size:18px;} /*1rem = 16px*/
+}
+ 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+  .about p{font-size:22px;} /*1rem = 16px*/
+}
+ 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  .about p{font-size: 23px;} /*1rem = 16px*/
+}
+ 
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+  .about p{font-size:  25px;} /*1rem = 16px*/    
+}
+ 
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Custom media queries
+*/
+ 
+/* Set width to make card deck cards 100% width */
+@media (min-width: 950px) and (max-width:1100px) { 
+  .about p {font-size:  23px;} 
+}
+
+ 
+
+Option 2: Responsive to viewport width
+Another approach would be to calculate the font size based on the viewport height and width. As the viewport gets smaller, the font-size will get smaller. This is not the default behavior in Bootstrap 4 because font sizes are relative to the body font size of 16px. So you will need to use a custom class .text-responsive to add this new functionality.
+
+.text-responsive {
+  font-size: calc(100% + 1vw + 1vh);
+}
+1
+2
+3
+.text-responsive {
+  font-size: calc(100% + 1vw + 1vh);
+}
+
+                                       /* TABLA PLAYER */
+
+
+/* 
+Extra small devices (portrait phones, less than 544px) 
+No media query since this is the default in Bootstrap because it is "mobile first"
+*/
+.tabla p{font-size: 6px;} /*1rem = 16px*/
+/*
+####################################################
+M E D I A  Q U E R I E S
+####################################################
+*/
+ 
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Bootstrap 4 breakpoints
+*/
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 425px) {  
+  .tabla p{font-size: 6px;} /*1rem = 16px*/
+}
+ 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+  .tabla p{font-size: 12px;} /*1rem = 16px*/
+}
+ 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  .tabla p{font-size: 23px;} /*1rem = 16px*/
+}
+ 
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+  .tabla p{font-size:  23px;} /*1rem = 16px*/    
+}
+ 
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Custom media queries
+*/
+ 
+/* Set width to make card deck cards 100% width */
+@media (min-width: 950px) and (max-width:1100px) { 
+  .tabla p {font-size:  16px;} 
+}
+
+ 
+
+Option 2: Responsive to viewport width
+Another approach would be to calculate the font size based on the viewport height and width. As the viewport gets smaller, the font-size will get smaller. This is not the default behavior in Bootstrap 4 because font sizes are relative to the body font size of 16px. So you will need to use a custom class .text-responsive to add this new functionality.
+
+.text-responsive {
+  font-size: calc(100% + 1vw + 1vh);
+}
+1
+2
+3
+.text-responsive {
+  font-size: calc(100% + 1vw + 1vh);
+}
+
+
+
+/* 
+Extra small devices (portrait phones, less than 544px) 
+No media query since this is the default in Bootstrap because it is "mobile first"
+*/
+.tabla h1{font-size: 10px;} /*1rem = 16px*/
+/*
+####################################################
+M E D I A  Q U E R I E S
+####################################################
+*/
+ 
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Bootstrap 4 breakpoints
+*/
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 425px) {  
+  .tabla h1{font-size: 10px;} /*1rem = 16px*/
+}
+ 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+  .tabla h1{font-size: 20px;} /*1rem = 16px*/
+}
+ 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  .tabla h1{font-size: 30px;} /*1rem = 16px*/
+}
+ 
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+  .tabla h1{font-size:  35px;} /*1rem = 16px*/    
+}
+ 
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Custom media queries
+*/
+ 
+/* Set width to make card deck cards 100% width */
+@media (min-width: 950px) and (max-width:1100px) { 
+  .tabla h1 {font-size:  25px;} 
+}
+
+ 
+
+Option 2: Responsive to viewport width
+Another approach would be to calculate the font size based on the viewport height and width. As the viewport gets smaller, the font-size will get smaller. This is not the default behavior in Bootstrap 4 because font sizes are relative to the body font size of 16px. So you will need to use a custom class .text-responsive to add this new functionality.
+
+.text-responsive {
+  font-size: calc(100% + 1vw + 1vh);
+}
+1
+2
+3
+.text-responsive {
+  font-size: calc(100% + 1vw + 1vh);
+}
+
+                                                             /* homepage main pic */
+
+/* 
+Extra small devices (portrait phones, less than 544px) 
+No media query since this is the default in Bootstrap because it is "mobile first"
+*/
+ .hi h1 {font-size:100px;} /*1rem = 16px*/
+/*
+####################################################
+M E D I A  Q U E R I E S
+####################################################
+*/
+ 
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Bootstrap 4 breakpoints
+*/
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 544px) {  
+  .hi h1 {font-size:100px;} /*1rem = 16px*/ 
+}
+ 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+  .hi h1 {font-size:160;} /*1rem = 16px*/ 
+}
+ 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  .hi h1 {font-size:190;} /*1rem = 16px*/ 
+}
+ 
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+  .hi h1 {font-size:190px;} /*1rem = 16px*/     
+}
+ 
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Custom media queries
+*/
+ 
+/* Set width to make card deck cards 100% width */
+@media (min-width: 950px) and (max-width:1100px) { 
+  .hi h1 {font-size: 190px;}  
+}
+
+ 
+
+Option 2: Responsive to viewport width
+Another approach would be to calculate the font size based on the viewport height and width. As the viewport gets smaller, the font-size will get smaller. This is not the default behavior in Bootstrap 4 because font sizes are relative to the body font size of 16px. So you will need to use a custom class .text-responsive to add this new functionality.
+
+.text-responsive {
+  font-size: calc(100% + 1vw + 1vh);
+}
+1
+2
+3
+.text-responsive { 
+ 1 font-size: calc(100% + 1vw + 1vh);
+}
+
+
+/* 
+Extra small devices (portrait phones, less than 544px) 
+No media query since this is the default in Bootstrap because it is "mobile first"
+*/
+ .hi h5 {font-size:40px;} /*1rem = 16px*/
+/*
+####################################################
+M E D I A  Q U E R I E S
+####################################################
+*/
+ 
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Bootstrap 4 breakpoints
+*/
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 544px) {  
+  .hi h5 {font-size:40px;} /*1rem = 16px*/ 
+}
+ 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+  .hi h5 {font-size:60;} /*1rem = 16px*/ 
+}
+ 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  .hi h5 {font-size:70;} /*1rem = 16px*/ 
+}
+ 
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+  .hi h5 {font-size:70px;} /*1rem = 16px*/     
+}
+ 
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Custom media queries
+*/
+ 
+/* Set width to make card deck cards 100% width */
+@media (min-width: 950px) and (max-width:1100px) { 
+  .hi h5 {font-size: 70px;}  
+}
+
+ 
+
+Option 2: Responsive to viewport width
+Another approach would be to calculate the font size based on the viewport height and width. As the viewport gets smaller, the font-size will get smaller. This is not the default behavior in Bootstrap 4 because font sizes are relative to the body font size of 16px. So you will need to use a custom class .text-responsive to add this new functionality.
+
+.text-responsive {
+  font-size: calc(100% + 1vw + 1vh);
+}
+1
+2
+3
+.text-responsive { 
+ 1 font-size: calc(100% + 1vw + 1vh);
+}
+
+/* 
+Extra small devices (portrait phones, less than 544px) 
+No media query since this is the default in Bootstrap because it is "mobile first"
+*/
+.hi p {font-size:15 vpx;} /*1rem = 16px*/
+/*
+####################################################
+M E D I A  Q U E R I E S
+####################################################
+*/
+ 
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Bootstrap 4 breakpoints
+*/
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 544px) {  
+  .hi p {font-size:15px;} /*1rem = 16px*/ 
+}
+ 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+  .hi p {font-size:20;} /*1rem = 16px*/ 
+}
+ 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  .hi p {font-size:23;} /*1rem = 16px*/ 
+}
+ 
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+  .hi p {font-size:25px;} /*1rem = 16px*/     
+}
+ 
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Custom media queries
+*/
+ 
+/* Set width to make card deck cards 100% width */
+@media (min-width: 25px) and (max-width:1100px) { 
+  .hi p {font-size: px;}  
+}
+
+ 
+
+Option 2: Responsive to viewport width
+Another approach would be to calculate the font size based on the viewport height and width. As the viewport gets smaller, the font-size will get smaller. This is not the default behavior in Bootstrap 4 because font sizes are relative to the body font size of 16px. So you will need to use a custom class .text-responsive to add this new functionality.
+
+.text-responsive {
+  font-size: calc(100% + 1vw + 1vh);
+}
+1
+2
+3
+.text-responsive { 
+ 1 font-size: calc(100% + 1vw + 1vh);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* DEMO */
+/* 
+Extra small devices (portrait phones, less than 544px) 
+No media query since this is the default in Bootstrap because it is "mobile first"
+*/
+h1 {font-size:1rem;} /*1rem = 16px*/
+/*
+####################################################
+M E D I A  Q U E R I E S
+####################################################
+*/
+ 
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Bootstrap 4 breakpoints
+*/
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 544px) {  
+  h1 {font-size:1.5rem;} /*1rem = 16px*/
+}
+ 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+  h1 {font-size:2rem;} /*1rem = 16px*/
+}
+ 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  h1 {font-size:2.5rem;} /*1rem = 16px*/
+}
+ 
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+  h1 {font-size:3rem;} /*1rem = 16px*/    
+}
+ 
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Custom media queries
+*/
+ 
+/* Set width to make card deck cards 100% width */
+@media (min-width: 950px) and (max-width:1100px) { 
+  h1 {font-size:2.75rem;} 
+}
+
+ 
+
+Option 2: Responsive to viewport width
+Another approach would be to calculate the font size based on the viewport height and width. As the viewport gets smaller, the font-size will get smaller. This is not the default behavior in Bootstrap 4 because font sizes are relative to the body font size of 16px. So you will need to use a custom class .text-responsive to add this new functionality.
+
+.text-responsive {
+  font-size: calc(100% + 1vw + 1vh);
+}
+1
+2
+3
+.text-responsive { 
+  font-size: calc(100% + 1vw + 1vh);
+}
